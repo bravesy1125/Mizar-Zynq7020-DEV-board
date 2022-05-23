@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="hdmi_out_processing_system7_0_0_synth_1" LaunchDir="D:/ZYNQ_Mizar-7020/06_Linux_Demo/6_petalinux_hdmi/petalinux_hdmi/petalinux_hdmi.runs/hdmi_out_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

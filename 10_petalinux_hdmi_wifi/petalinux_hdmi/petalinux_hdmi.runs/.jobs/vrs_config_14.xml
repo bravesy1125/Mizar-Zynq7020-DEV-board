@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="hdmi_out_processing_system7_0_0_synth_1" LaunchDir="D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/hdmi_out_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="hdmi_out_processing_system7_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

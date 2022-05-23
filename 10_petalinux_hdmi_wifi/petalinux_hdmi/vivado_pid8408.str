@@ -1,0 +1,1268 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 8408
+License: Customer
+
+Current time: 	Sat May 21 11:06:13 CEST 2022
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1440
+Screen resolution (DPI): 120
+Available screens: 2
+Available disk space: 10 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	yongsh
+User home directory: C:/Users/windows
+User working directory: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/windows/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/windows/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/windows/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/vivado.log
+Vivado journal file location: 	D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/vivado.jou
+Engine tmp dir: 	D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/.Xil/Vivado-8408-DESKTOP-YONGSH
+
+Xilinx Environment Variables
+----------------------------
+ALTERAOCLSDKROOT: F:\altera\hld
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 592 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\Mizar_Z7020_2018.3\Part4_Linux_Demo\10_petalinux_hdmi_wifi\petalinux_hdmi\petalinux_hdmi.xpr. Version: Vivado v2018.3 
+// bx (cp):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 613 MB. GUI used memory: 54 MB. Current time: 5/21/22, 11:06:15 AM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 107 MB (+109516kb) [00:00:19]
+// [Engine Memory]: 665 MB (+545888kb) [00:00:19]
+// [Engine Memory]: 700 MB (+2084kb) [00:00:20]
+// [GUI Memory]: 117 MB (+4978kb) [00:00:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  3506 ms.
+// Tcl Message: open_project D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/6_petalinux_hdmi/petalinux_hdmi' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// [Engine Memory]: 742 MB (+7218kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  1268 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 760.559 ; gain = 171.430 
+// Project name: petalinux_hdmi; location: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi; part: xc7z020clg400-2
+// [Engine Memory]: 1,224 MB (+465771kb) [00:00:25]
+// [GUI Memory]: 136 MB (+13494kb) [00:00:25]
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0 Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_140M Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0 Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0 Adding cell -- digilentinc.com:ip:rgb2dvi:1.2 - rgb2dvi_0 
+// Tcl Message: Adding cell -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0 Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1 Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1367 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Successfully read diagram <hdmi_out> from BD file <D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd> 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 75 MB. Current time: 5/21/22, 11:07:10 AM CEST
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1818.906 ; gain = 20.422 
+// 'bA' command handler elapsed time: 6 seconds
+// a (cp): Critical Messages: addNotify
+dismissDialog("Open Block Design"); // bx (cp)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+// Elapsed time: 22 seconds
+selectTab((HResource) null, (HResource) null, "Signals", 2); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Design", 1); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+// Elapsed time: 30 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd} 
+dismissDialog("Open Block Design"); // bx (cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (cp):  Re-customize IP : addNotify
+// r (cp): Re-customize IP: addNotify
+// cl (r): Configuration Presets: addNotify
+// Elapsed time: 20 seconds
+dismissDialog("Re-customize IP"); // O (cp)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ch, r)
+selectButton("SD1", "SD1"); // aH (bt, r)
+// [GUI Memory]: 153 MB (+11047kb) [00:03:00]
+// Elapsed time: 19 seconds
+selectButton("MIO Configuration", "MIO Configuration"); // k (ch, r)
+// WARNING: HEventQueue.dispatchEvent() is taking  1321 ms.
+// Elapsed time: 34 seconds
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aW (Q, r)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 16, "GPIO", 0, true); // aW (Q, r) - Node
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 16); // aW (Q, r)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "GPIO MIO ; MIO ;  ;  ;  ;  ;  ; ", 17); // aW (Q, r)
+// [GUI Memory]: 168 MB (+8050kb) [00:04:14]
+// Elapsed time: 28 seconds
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "GPIO ; MIO 7 ; gpio[7] ; LVCMOS 3.3V ; slow ; disabled ; out ; ", 25, "MIO 7", 1, false); // aW (Q, r)
+// Elapsed time: 17 seconds
+selectButton("Clock Configuration", "Clock Configuration"); // k (ch, r)
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks", 1); // A (Q, r)
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "SDIO ; IO PLL ; 100 ; 100.000000 ; 10.000000 : 125.000000 ; IO Peripheral Clocks", 6, "100", 2, false); // A (Q, r)
+applyEnter("PCW SDIO PERIPHERAL FREQMHZ", "25"); // z (bh, r)
+applyEnter(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, (String) null); // A (Q, r)
+// Elapsed time: 24 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// Tcl Command: 'set_property -dict [list CONFIG.PCW_SDIO_PERIPHERAL_FREQMHZ {25} CONFIG.PCW_SD1_PERIPHERAL_ENABLE {1} CONFIG.PCW_SD1_SD1_IO {MIO 10 .. 15}] [get_bd_cells processing_system7_0]'
+// Tcl Message: startgroup 
+// TclEventType: FILE_SET_CHANGE
+// r (cp): Re-customize IP: addNotify
+// bx (r):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.PCW_SDIO_PERIPHERAL_FREQMHZ {25} CONFIG.PCW_SD1_PERIPHERAL_ENABLE {1} CONFIG.PCW_SD1_SD1_IO {MIO 10 .. 15}] [get_bd_cells processing_system7_0] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // bx (r)
+// [GUI Memory]: 178 MB (+1566kb) [00:05:27]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <D:\Mizar_Z7020_2018.3\Part4_Linux_Demo\10_petalinux_hdmi_wifi\petalinux_hdmi\petalinux_hdmi.srcs\sources_1\bd\hdmi_out\hdmi_out.bd>  Wrote  : <D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/ui/bd_f2526487.ui>  
+// A (cp): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Constraints"); // bx (cp)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run hdmi_out_processing_system7_0_0_synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 8 seconds
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 188 MB (+684kb) [00:05:40]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat May 21 11:11:43 2022] Launched hdmi_out_processing_system7_0_0_synth_1, synth_1... Run output will be captured here: hdmi_out_processing_system7_0_0_synth_1: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/hdmi_out_processing_system7_0_0_synth_1/runme.log synth_1: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/synth_1/runme.log [Sat May 21 11:11:43 2022] Launched impl_1... Run output will be captured here: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u (Q, cp)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aI (aF, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (Q, cp) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (Q, cp) - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (Q, cp)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (Q, cp) - Node
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 203 MB (+5478kb) [00:07:07]
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cp): Implementation Failed: addNotify
+// Elapsed time: 87 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cp)
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-682] Sub-design 'hdmi_out.bd' is not generated for Synthesis target. Please open this sub-design and generate with synth_checkpoint_mode as 'Singular' in original project before adding it to current project.. ]", 9, false); // ah (Q, cp)
+// Elapsed time: 49 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out]", 1); // B (D, cp)
+selectTab((HResource) null, (HResource) null, "Design", 1); // aI (aF, cp)
+// Elapsed time: 17 seconds
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[hdmi_out, Nets]", 4, true); // i (Q, cp) - Node
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[hdmi_out, Nets]", 4, true); // i (Q, cp) - Node
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[hdmi_out, Ports]", 3, true, false, false, false, false, true); // i (Q, cp) - Double Click - Node
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis, hdmi_out_rgb2dvi_0_1]", 11, true); // B (D, cp) - Node
+selectButton(PAResourceQtoS.SrcFilePropPanels_MORE_INFO, "more info"); // h (cQ, cp)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis, hdmi_out_v_tc_0_0]", 10, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis, hdmi_out_axi_dynclk_0_0]", 12, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis, hdmi_out_rgb2dvi_0_1]", 11, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis, hdmi_out_v_tc_0_0]", 10, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis, hdmi_out_rgb2dvi_0_1]", 11, true); // B (D, cp) - Node
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hdmi_out_processing_system7_0_0, cache-ID = bed832cee05be201; cache size = 20.332 MB. 
+// Tcl Message: [Sat May 21 11:15:45 2022] Launched impl_1... Run output will be captured here: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cp): Implementation Failed: addNotify
+// Elapsed time: 22 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-682] Sub-design 'hdmi_out.bd' is not generated for Synthesis target. Please open this sub-design and generate with synth_checkpoint_mode as 'Singular' in original project before adding it to current project.. ]", 9, false); // ah (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 34 seconds
+selectButton(PAResourceAtoD.CustomizeCoreDialog_IP_LOCATION, "IP Location"); // B (f, r)
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_MORE_INFO, "more info"); // h (Z, r)
+// Elapsed time: 15 seconds
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_MORE_INFO, "more info"); // h (Z, r)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_MORE_INFO, "more info"); // h (Z, r)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_IP_LOCATION, "IP Location"); // B (f, r)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_CHOOSE_IP_LOCATION, (String) null); // q (ak, ResizableWindow)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_CHOOSE_IP_LOCATION, (String) null); // q (ak, ResizableWindow)
+// Elapsed time: 49 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (cp):  Re-customize IP : addNotify
+// r (cp): Re-customize IP: addNotify
+// cl (r): Configuration Presets: addNotify
+dismissDialog("Re-customize IP"); // O (cp)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ch, r)
+selectButton("MIO Configuration", "MIO Configuration"); // k (ch, r)
+// WARNING: HEventQueue.dispatchEvent() is taking  1177 ms.
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aW (Q, r)
+selectButton((HResource) null, "IP Catalog_groupView"); // u (f, r): TRUE
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "IP Catalog_search"); // u (f, r): FALSE
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ch, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// [GUI Memory]: 220 MB (+7678kb) [00:12:38]
+dismissDialog("Re-customize IP"); // r (cp)
+// [GUI Memory]: 233 MB (+2242kb) [00:12:39]
+// Tcl Message: startgroup 
+// Tcl Message: endgroup 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Out-of-Context module run(s) is/are Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Out-of-Context module run(s) is/are Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run hdmi_out_processing_system7_0_0_synth_1 
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hdmi_out_processing_system7_0_0, cache-ID = bed832cee05be201; cache size = 20.332 MB. 
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat May 21 11:18:53 2022] Launched hdmi_out_processing_system7_0_0_synth_1... Run output will be captured here: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/hdmi_out_processing_system7_0_0_synth_1/runme.log [Sat May 21 11:18:53 2022] Launched synth_1... Run output will be captured here: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aI (aF, cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 248 MB (+3767kb) [00:13:46]
+// ah (cp): Synthesis Completed: addNotify
+// Elapsed time: 48 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hdmi_out_processing_system7_0_0, cache-ID = bed832cee05be201; cache size = 20.332 MB. 
+// Tcl Message: [Sat May 21 11:19:55 2022] Launched impl_1... Run output will be captured here: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// Elapsed time: 11 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis]", 2); // B (D, cp)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cp): Implementation Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-682] Sub-design 'hdmi_out.bd' is not generated for Synthesis target. Please open this sub-design and generate with synth_checkpoint_mode as 'Singular' in original project before adding it to current project.. ]", 9, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-682] Sub-design 'hdmi_out.bd' is not generated for Synthesis target. Please open this sub-design and generate with synth_checkpoint_mode as 'Singular' in original project before adding it to current project.. ]", 9, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-682] Sub-design 'hdmi_out.bd' is not generated for Synthesis target. Please open this sub-design and generate with synth_checkpoint_mode as 'Singular' in original project before adding it to current project.. ]", 9, false, false, false, false, false, true); // ah (Q, cp) - Double Click
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd} 
+dismissDialog("Open Block Design"); // bx (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out_rgb2dvi_0_1]", 12); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out_axi_dynclk_0_0]", 17); // B (D, cp)
+// Elapsed time: 33 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-682] Sub-design 'hdmi_out.bd' is not generated for Synthesis target. Please open this sub-design and generate with synth_checkpoint_mode as 'Singular' in original project before adding it to current project.. ]", 9, false, false, false, false, true, false); // ah (Q, cp) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // ac (K, Popup.HeavyWeightWindow)
+// Elapsed time: 63 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1406, 205, 1813, 868, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, cp)
+// Elapsed time: 11 seconds
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, cp)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 795, 162, 1813, 868, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out.v]", 21, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out_processing_system7_0_0]", 4, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out_processing_system7_0_0]", 4, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out_processing_system7_0_0]", 4, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out_processing_system7_0_0]", 4, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''hdmi_out_processing_system7_0_0.xci' IP is part of a block design. Please use the block design 'hdmi_out' to customize the IP. (Re-customize IP)'
+// 'B' command handler elapsed time: 3 seconds
+selectButton("PAResourceQtoS.RecustomizeCore_THIS_IP_PART_OF_BLOCK_DESIGN_OK", "OK"); // JButton (C, I)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out_processing_system7_0_0]", 4); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out.v]", 21, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation, hdmi_out.v]", 21, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false); // B (Q, cp)
+// Elapsed time: 16 seconds
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "false", 1, false); // B (Q, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "false", 1, false); // B (Q, cp)
+selectTreeTableHeader(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "Upgrade", 1); // B (Q, cp)
+selectTreeTableHeader(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "Upgrade", 1); // B (Q, cp)
+selectTreeTableHeader(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "Upgrade", 1, false, false, false, false, true); // B (Q, cp) - Double Click
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "hdmi_out ; false ;  ; hdmi_out ;  ;  ;  ;  ;  ; ", 0, "hdmi_out", 0, true, false, false, false, true, false); // B (Q, cp) - Popup Trigger - Node
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "hdmi_out ; false ;  ; hdmi_out ;  ;  ;  ;  ;  ; ", 0, "hdmi_out", 0, true, false, false, false, true, false); // B (Q, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // af (al, cp)
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd} 
+dismissDialog("Open Block Design"); // bx (cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation]", 3); // B (D, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "/axi_dynclk_0", 0, false, false, false, false, true, false); // B (Q, cp) - Popup Trigger
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "/axi_dynclk_0", 0, false); // B (Q, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "/axi_dynclk_0", 0, false, false, false, false, true, false); // B (Q, cp) - Popup Trigger
+selectButton((HResource) null, "Properties_settings"); // u (f, cp): TRUE
+selectCheckBox(PAResourceItoN.IPStatusSectionPanel_IP_UP_TO_DATE, (String) null, true); // g (p, cp): TRUE
+selectCheckBox(PAResourceItoN.IPStatusSectionPanel_IP_UP_TO_DATE, (String) null, false); // g (p, cp): FALSE
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// ah (cp): Upgrade IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// 'Y' command handler elapsed time: 3 seconds
+// TclEventType: IP_LOCK_CHANGE
+dismissDialog("Upgrade IP"); // ah (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// bx (cp):  Lock Upgrade : addNotify
+// Tcl Message: set_property LOCK_UPGRADE 1 [get_bd_cells /axi_dynclk_0] 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: set_property LOCK_UPGRADE 1 [get_bd_cells /rgb2dvi_0] 
+dismissDialog("Lock Upgrade"); // bx (cp)
+selectTreeTableHeader(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "Upgrade", 1); // B (Q, cp)
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a (f, cp)
+selectButton(RDIResource.FilterToolBar_HIDE_ALL, "Hide All"); // a (f, cp)
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a (f, cp)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectTreeTableHeader(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "Upgrade", 1); // B (Q, cp)
+selectCheckBox(PAResourceItoN.IPStatusSectionPanel_IP_UP_TO_DATE, (String) null, false); // g (p, cp): FALSE
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "false", 1, false); // B (Q, cp)
+expandTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1); // B (Q, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "false", 1, false, false, false, false, false, true); // B (Q, cp) - Double Click
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "hdmi_out ; false ;  ; hdmi_out ;  ;  ;  ;  ;  ; ", 0, "false", 1, true); // B (Q, cp) - Node
+collapseTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "hdmi_out ; false ;  ; hdmi_out ;  ;  ;  ;  ;  ; ", 0); // B (Q, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "hdmi_out ; false ;  ; hdmi_out ;  ;  ;  ;  ;  ; ", 0, "false", 1, true); // B (Q, cp) - Node
+expandTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "hdmi_out ; false ;  ; hdmi_out ;  ;  ;  ;  ;  ; ", 0); // B (Q, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "hdmi_out ; false ;  ; hdmi_out ;  ;  ;  ;  ;  ; ", 0, "false", 1, true, false, false, false, false, true); // B (Q, cp) - Double Click - Node
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Sources, hdmi_out_axi_dynclk_0_0, IP, hdmi_out_axi_dynclk_0_0]", 9, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Sources, hdmi_out_axi_dynclk_0_0, IP, hdmi_out_axi_dynclk_0_0]", 9, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+selectButton(PAResourceAtoD.CustomizeCoreDialog_MORE_INFO, "more info"); // h (Z, r)
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false); // B (Q, cp)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false); // B (Q, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false, false, false, false, false, true); // B (Q, cp) - Double Click
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false); // B (Q, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false, false, false, false, false, true); // B (Q, cp) - Double Click
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/rgb2dvi_0 ; false ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ;  ; rgb2dvi ; 1.2 (Rev. 6) ; N/A ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ; xc7z020clg400-2", 2, "hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found)", 3, false); // B (Q, cp)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false); // B (Q, cp)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/rgb2dvi_0 ; false ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ;  ; rgb2dvi ; 1.2 (Rev. 6) ; N/A ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ; xc7z020clg400-2", 2, "hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found)", 3, false); // B (Q, cp)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/rgb2dvi_0 ; false ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ;  ; rgb2dvi ; 1.2 (Rev. 6) ; N/A ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ; xc7z020clg400-2", 2, "hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found)", 3, false); // B (Q, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/rgb2dvi_0 ; false ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ;  ; rgb2dvi ; 1.2 (Rev. 6) ; N/A ; hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found) ; xc7z020clg400-2", 2, "hdmi_out_rgb2dvi_0_1 [rgb2dvi] (IP definition not found)", 3, false); // B (Q, cp)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false); // B (Q, cp)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // i (c, cp)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0); // i (c, cp)
+selectButton((HResource) null, "Properties_settings"); // u (f, cp): TRUE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Sources, hdmi_out_axi_dynclk_0_0, IP, hdmi_out_axi_dynclk_0_0]", 9, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Sources, hdmi_out_axi_dynclk_0_0, IP, hdmi_out_axi_dynclk_0_0]", 9, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectButton((HResource) null, "Properties_settings"); // u (f, cp): TRUE
+selectButton((HResource) null, "Properties_settings"); // u (f, cp): FALSE
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ci, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Sources, hdmi_out_axi_dynclk_0_0, IP, hdmi_out_axi_dynclk_0_0]", 9, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // af (al, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Sources, hdmi_out_axi_dynclk_0_0, IP, hdmi_out_axi_dynclk_0_0]", 9, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // af (al, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+selectButton(PAResourceAtoD.CustomizeCoreDialog_IP_LOCATION, "IP Location"); // B (f, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a (f, cp)
+selectButton(RDIResource.FilterToolBar_HIDE_ALL, "Hide All"); // a (f, cp)
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a (f, cp)
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+selectCheckBox(PAResourceItoN.IPStatusSectionPanel_IP_UP_TO_DATE, (String) null, false); // g (p, cp): FALSE
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Add IP definition to catalog"); // N (B, cp)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/axi_dynclk_0 ; false ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ;  ; axi_dynclk ; 1.0 (Rev. 3) ; N/A ; hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found) ; xc7z020clg400-2", 1, "hdmi_out_axi_dynclk_0_0 [axi_dynclk] (IP definition not found)", 3, false); // B (Q, cp)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Elapsed time: 26 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 795, 160, 1813, 868, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_SETTINGS, "IP Settings..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_IP_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// F (cp): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1386 ms.
+// Elapsed time: 12 seconds
+expandTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Repository]", 7, false); // L (C, F)
+// Elapsed time: 15 seconds
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "d:/Mizar_Z7020_2018.3/04_SDK_Demo/17_hdmi_out/hdmi_out/repo", 0); // cw (Q, F)
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "d:/Mizar_Z7020_2018.3/04_SDK_Demo/17_hdmi_out/hdmi_out/repo", 0, false, false, false, false, true); // cw (Q, F) - Double Click
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_REFRESH_ALL, "Refresh All"); // a (C, F)
+// TclEventType: CREATE_IP_CATALOG
+// bx (cp):  Refresh All IP Repositories : addNotify
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+dismissDialog("Refresh All IP Repositories"); // bx (cp)
+// Elapsed time: 62 seconds
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Packager]", 8, false); // L (C, F)
+// Elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (F)
+// [GUI Memory]: 267 MB (+6352kb) [00:23:38]
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Repository]", 7, false); // L (C, F)
+// Elapsed time: 30 seconds
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_REFRESH_ALL, "Refresh All"); // a (C, F)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B (f, F)
+// Elapsed time: 14 seconds
+setFolderChooser("D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/repo");
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {d:/Mizar_Z7020_2018.3/04_SDK_Demo/17_hdmi_out/hdmi_out/repo D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/repo} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/repo'. 
+// c (F): Add Repository: addNotify
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a (c)
+dismissDialog("Add Repository"); // c (F)
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "d:/Mizar_Z7020_2018.3/04_SDK_Demo/17_hdmi_out/hdmi_out/repo", 0); // cw (Q, F)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, F)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  d:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/repo [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/repo'. 
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Settings"); // F (cp)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// [GUI Memory]: 282 MB (+1716kb) [00:24:39]
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <D:\Mizar_Z7020_2018.3\Part4_Linux_Demo\10_petalinux_hdmi_wifi\petalinux_hdmi\petalinux_hdmi.srcs\sources_1\bd\hdmi_out\hdmi_out.bd>  
+// A (cp): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Constraints"); // bx (cp)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run hdmi_out_processing_system7_0_0_synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 4 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: xit::source_ipfile: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1818.906 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [xilinx.com:ip:axi_vdma:6.3-16] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. INFO: [xilinx.com:ip:axi_vdma:6.3-16] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <D:\Mizar_Z7020_2018.3\Part4_Linux_Demo\10_petalinux_hdmi_wifi\petalinux_hdmi\petalinux_hdmi.srcs\sources_1\bd\hdmi_out\hdmi_out.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/synth/hdmi_out.v VHDL Output written to : D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/sim/hdmi_out.v VHDL Output written to : D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdl/hdmi_out_wrapper.v 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,291 MB. GUI used memory: 193 MB. Current time: 5/21/22, 11:31:16 AM CEST
+// [Engine Memory]: 1,291 MB (+6634kb) [00:25:13]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 . 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,352 MB. GUI used memory: 193 MB. Current time: 5/21/22, 11:31:36 AM CEST
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file d:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/ip/hdmi_out_axi_smc_0/bd_0/hw_handoff/hdmi_out_axi_smc_0.hwh Generated Block Design Tcl file d:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/ip/hdmi_out_axi_smc_0/bd_0/hw_handoff/hdmi_out_axi_smc_0_bd.tcl Generated Hardware Definition File d:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/ip/hdmi_out_axi_smc_0/bd_0/synth/hdmi_out_axi_smc_0.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hw_handoff/hdmi_out.hwh Generated Block Design Tcl file D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hw_handoff/hdmi_out_bd.tcl Generated Hardware Definition File D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/synth/hdmi_out.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_DELETE
+// [Engine Memory]: 1,371 MB (+15562kb) [00:25:40]
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hdmi_out_auto_pc_0, cache-ID = aa7367fc6e3ee86d; cache size = 20.332 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP hdmi_out_processing_system7_0_0, cache-ID = bed832cee05be201; cache size = 20.332 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat May 21 11:31:46 2022] Launched synth_1... Run output will be captured here: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/synth_1/runme.log [Sat May 21 11:31:46 2022] Launched impl_1... Run output will be captured here: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 1818.906 ; gain = 0.000 
+// aX (cp): Launch Run Critical Messages: addNotify
+// Elapsed time: 61 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aX)
+dismissDialog("Launch Run Critical Messages"); // aX (cp)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bx (cp):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bx (cp)
+selectTab((HResource) null, (HResource) null, "Design Runs", 5); // aI (aF, cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 190 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (cp):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1502 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,529 MB. GUI used memory: 196 MB. Current time: 5/21/22, 11:35:12 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,794 MB. GUI used memory: 196 MB. Current time: 5/21/22, 11:35:26 AM CEST
+// [Engine Memory]: 2,005 MB (+592890kb) [00:29:26]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,238 MB. GUI used memory: 196 MB. Current time: 5/21/22, 11:35:32 AM CEST
+// [Engine Memory]: 2,238 MB (+140115kb) [00:29:29]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2018.3/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.5s
+// [Engine Memory]: 2,375 MB (+26219kb) [00:29:31]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.8s
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  2167 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 329 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Device 21-403] Loading part xc7z020clg400-2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2274.004 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2274.004 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2274.004 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 25 instances were transformed.   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 25 instances  
+// Tcl Message: INFO: [Common 17-14] Message 'Designutils 20-3303' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:26 . Memory (MB): peak = 2428.062 ; gain = 609.156 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 298 MB (+2115kb) [00:29:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  3231 ms.
+// Elapsed time: 31 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dQ' command handler elapsed time: 32 seconds
+// Device view-level: 0.0
+// Device view-level: 0.0
+dismissDialog("Open Implemented Design"); // bx (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 3 seconds
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 319 MB (+6044kb) [00:29:49]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+// Elapsed time: 146 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design {D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd} 
+dismissDialog("Open Block Design"); // bx (cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (cp):  Re-customize IP : addNotify
+// r (cp): Re-customize IP: addNotify
+// cl (r): Configuration Presets: addNotify
+// Elapsed time: 15 seconds
+dismissDialog("Re-customize IP"); // O (cp)
+selectButton("MIO Configuration", "MIO Configuration"); // k (ch, r)
+// WARNING: HEventQueue.dispatchEvent() is taking  1203 ms.
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ch, r)
+// Elapsed time: 17 seconds
+selectButton(PAResourceAtoD.CustomizeCoreDialog_PRESETS, "Presets"); // B (f, r)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_PRESETS, "Presets"); // B (f, r)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_PRESETS, "Presets"); // B (f, r)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_PRESETS, "Presets"); // B (f, r)
+// Elapsed time: 27 seconds
+selectButton("SD1", "SD1"); // aH (bt, r)
+selectButton("SD1", "SD1"); // aH (bt, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// [GUI Memory]: 338 MB (+3007kb) [00:33:45]
+// Tcl Command: 'set_property -dict [list CONFIG.PCW_SD1_PERIPHERAL_ENABLE {1} CONFIG.PCW_SD1_SD1_IO {MIO 10 .. 15}] [get_bd_cells processing_system7_0]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// r (cp): Re-customize IP: addNotify
+// bx (r):  Customize IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_SD1_PERIPHERAL_ENABLE {1} CONFIG.PCW_SD1_SD1_IO {MIO 10 .. 15}] [get_bd_cells processing_system7_0] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: endgroup 
+// [GUI Memory]: 363 MB (+9105kb) [00:33:46]
+dismissDialog("Customize IP"); // bx (r)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, hdmi_out.xdc]", 36, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, hdmi_out.xdc]", 36, false, false, false, false, false, true); // B (D, cp) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 3); // i (N, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+// aI (cp): Generate Output Products: addNotify
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd] 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 . 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,517 MB. GUI used memory: 290 MB. Current time: 5/21/22, 11:40:31 AM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file d:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/ip/hdmi_out_axi_smc_0/bd_0/hw_handoff/hdmi_out_axi_smc_0.hwh Generated Block Design Tcl file d:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/ip/hdmi_out_axi_smc_0/bd_0/hw_handoff/hdmi_out_axi_smc_0_bd.tcl Generated Hardware Definition File d:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/ip/hdmi_out_axi_smc_0/bd_0/synth/hdmi_out_axi_smc_0.hwdef 
+// Tcl Message: Exporting to file D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hw_handoff/hdmi_out.hwh Generated Block Design Tcl file D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hw_handoff/hdmi_out_bd.tcl Generated Hardware Definition File D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/synth/hdmi_out.hwdef 
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd] 
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,556 MB (+64705kb) [00:34:31]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// 'bn' command handler elapsed time: 30 seconds
+// Elapsed time: 19 seconds
+dismissDialog("Managing Output Products"); // bx (cp)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Synthesis]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, hdmi_out, Implementation]", 18); // B (D, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+// aI (cp): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd] 
+// Tcl Message: INFO: [BD 41-1637] Generated targets are already up-to-date for bd-design 'hdmi_out' - hence not re-generating. 
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.srcs/sources_1/bd/hdmi_out/hdmi_out.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// 'bn' command handler elapsed time: 24 seconds
+// Elapsed time: 15 seconds
+dismissDialog("Managing Output Products"); // bx (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <D:\Mizar_Z7020_2018.3\Part4_Linux_Demo\10_petalinux_hdmi_wifi\petalinux_hdmi\petalinux_hdmi.srcs\sources_1\bd\hdmi_out\hdmi_out.bd>  
+dismissDialog("Save Constraints"); // bx (cp)
+// f (cp): Launch Runs: addNotify
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton (C, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 8 seconds
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// bx (cp):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat May 21 11:42:05 2022] Launched impl_1... Run output will be captured here: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 75 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (cp):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 3 seconds
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 65 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 125 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 214 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u (Q, cp) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (Q, cp) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (Q, cp) - Node
+// Elapsed time: 59 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cp): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 9 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Export Hardware"); // X (cp)
+// Tcl Message: write_hwdef -force  -file D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,596 MB. GUI used memory: 286 MB. Current time: 5/21/22, 12:10:31 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,596 MB. GUI used memory: 280 MB. Current time: 5/21/22, 12:40:32 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,596 MB. GUI used memory: 280 MB. Current time: 5/21/22, 1:10:32 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,596 MB. GUI used memory: 280 MB. Current time: 5/21/22, 1:40:32 PM CEST

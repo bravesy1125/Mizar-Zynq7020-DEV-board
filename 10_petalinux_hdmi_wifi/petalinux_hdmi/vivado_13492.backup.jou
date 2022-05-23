@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat May 21 14:00:33 2022
+# Process ID: 13492
+# Current directory: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21784 D:\Mizar_Z7020_2018.3\Part4_Linux_Demo\10_petalinux_hdmi_wifi\petalinux_hdmi\petalinux_hdmi.xpr
+# Log file: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/vivado.log
+# Journal file: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+file copy -force D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/impl_1/hdmi_out_wrapper.bit D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper_hw_platform_2/hdmi_out_wrapper.bit
+file copy -force D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/impl_1/hdmi_out_wrapper.sysdef D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf
+
+launch_sdk -workspace D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk -hwspec D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.sdk/hdmi_out_wrapper.hdf

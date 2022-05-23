@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="impl_1" LaunchDir="D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="write_bitstream" ToStepId="write_bitstream"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

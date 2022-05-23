@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May 22 14:46:17 2022
+# Process ID: 18072
+# Current directory: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/synth_1
+# Command line: vivado.exe -log hdmi_out_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_out_wrapper.tcl
+# Log file: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/synth_1/hdmi_out_wrapper.vds
+# Journal file: D:/Mizar_Z7020_2018.3/Part4_Linux_Demo/10_petalinux_hdmi_wifi/petalinux_hdmi/petalinux_hdmi.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source hdmi_out_wrapper.tcl -notrace
