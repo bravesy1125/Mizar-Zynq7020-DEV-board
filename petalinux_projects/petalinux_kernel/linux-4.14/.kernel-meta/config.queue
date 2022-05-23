@@ -1,0 +1,4 @@
+configs//./defconfig # non-hardware
+configs//./plnx_kernel.cfg # non-hardware
+configs//./user_2022-05-22-10-34-00.cfg # non-hardware
+configs//cfg/openamp.cfg # non-hardware

@@ -1,0 +1,19 @@
+#
+# scc v0.8
+# processed: Sun May 22 08:36:33 UTC 2022
+#
+# This is a scc output file, do not edit
+#
+# _reloc_dir /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.14-xilinx-v2018.3+git999-r0
+# _reloc_dir /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.14-xilinx-v2018.3+git999-r0
+# _reloc_dir /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx
+# _reloc_dir /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/project-spec/meta-plnx-generated/recipes-kernel/linux
+# _reloc_dir /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/project-spec/meta-user/recipes-kernel/linux
+kconf /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.14-xilinx-v2018.3+git999-r0/defconfig # non-hardware
+kconf /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/project-spec/meta-plnx-generated/recipes-kernel/linux/configs/plnx_kernel.cfg # non-hardware
+kconf /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/project-spec/meta-user/recipes-kernel/linux/linux-xlnx/user_2022-05-22-10-34-00.cfg # non-hardware
+# _mark openamp.scc start
+# _define KFEATURE_DESCRIPTION 'OpenAMP Kernel Support'
+# _define KFEATURE_COMPATIBILITY 'arch'
+kconf /home/yongsh/petalinux_projects/petalinux_hdmi_wifi/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.14-xilinx-v2018.3+git999-r0/openamp-kmeta/cfg/openamp.cfg # non-hardware
+# _mark openamp.scc end

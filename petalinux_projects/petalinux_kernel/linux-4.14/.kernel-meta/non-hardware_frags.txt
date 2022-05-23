@@ -1,0 +1,7 @@
+/home/yongsh/petalinux_projects/petalinux_kernel/linux-4.14/.kernel-meta/configs//./defconfig
+/home/yongsh/petalinux_projects/petalinux_kernel/linux-4.14/.kernel-meta/configs//./plnx_kernel.cfg
+/home/yongsh/petalinux_projects/petalinux_kernel/linux-4.14/.kernel-meta/configs//cfg/openamp.cfg
+/home/yongsh/petalinux_projects/petalinux_kernel/linux-4.14/.kernel-meta/configs//./defconfig
+/home/yongsh/petalinux_projects/petalinux_kernel/linux-4.14/.kernel-meta/configs//./plnx_kernel.cfg
+/home/yongsh/petalinux_projects/petalinux_kernel/linux-4.14/.kernel-meta/configs//./user_2022-05-22-10-34-00.cfg
+/home/yongsh/petalinux_projects/petalinux_kernel/linux-4.14/.kernel-meta/configs//cfg/openamp.cfg
