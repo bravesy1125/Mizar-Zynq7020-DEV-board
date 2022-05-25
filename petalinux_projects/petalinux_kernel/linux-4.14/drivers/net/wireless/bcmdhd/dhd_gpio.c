@@ -240,9 +240,9 @@ int dhd_wlan_init_gpio(void)
 	/* Please check your schematic and fill right GPIO number which connected to
 	* WL_REG_ON and WL_HOST_WAKE.
 	*/
-	gpio_wl_reg_on = 914;
+	gpio_wl_reg_on = 912;
 #ifdef CUSTOMER_OOB
-	gpio_wl_host_wake = 915;
+	gpio_wl_host_wake = 913;
 #endif
 
 	if (gpio_wl_reg_on >= 0) {
