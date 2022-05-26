@@ -22,7 +22,7 @@ CONFIG_SUBSYSTEM_COMPONENT_LINUX__KERNEL_NAME_EXT__LOCAL__SRC=y
 #
 # External linux-kernel local source settings
 #
-CONFIG_SUBSYSTEM_COMPONENT_LINUX__KERNEL_NAME_EXT_LOCAL_SRC_PATH="/home/yongsh/petalinux_projects/petalinux_kernel/linux-4.14"
+CONFIG_SUBSYSTEM_COMPONENT_LINUX__KERNEL_NAME_EXT_LOCAL_SRC_PATH="/home/yongsh/Mizar-Zynq7020-DEV-board/petalinux_projects/petalinux_kernel/linux-4.14"
 
 #
 # Auto Config Settings
@@ -166,8 +166,7 @@ CONFIG_SUBSYSTEM_ROOTFS_SD=y
 CONFIG_SUBSYSTEM_SDROOT_DEV="/dev/mmcblk0p2"
 CONFIG_SUBSYSTEM_UIMAGE_NAME="image.ub"
 CONFIG_SUBSYSTEM_DTB_PADDING_SIZE=0x1000
-CONFIG_SUBSYSTEM_COPY_TO_TFTPBOOT=y
-CONFIG_SUBSYSTEM_TFTPBOOT_DIR="/tftpboot"
+# CONFIG_SUBSYSTEM_COPY_TO_TFTPBOOT is not set
 
 #
 # Firmware Version Configuration
@@ -218,8 +217,4 @@ CONFIG_YOCTO_NETWORK_SSTATE_FEEDS_URL="http://petalinux.xilinx.com/sswreleases/r
 # User Layers
 #
 CONFIG_USER_LAYER_0=""
-
-
-
-
 CONFIG_SUBSYSTEM_BOOTARGS_GENERATED="console=ttyPS0,115200 earlyprintk root=/dev/mmcblk0p2 rw rootwait"
